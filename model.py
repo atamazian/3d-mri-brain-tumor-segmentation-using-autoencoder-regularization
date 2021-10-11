@@ -6,7 +6,7 @@
 import tensorflow.keras.backend as K
 from tensorflow.keras.layers import Conv3D, Activation, Add, UpSampling3D, Lambda, Dense
 from tensorflow.keras.layers import Input, Reshape, Flatten, Dropout, SpatialDropout3D
-from tensorflow.keras.optimizers import adam
+from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.models import Model
 try:
     from group_norm import GroupNormalization
